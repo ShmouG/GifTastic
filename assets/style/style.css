@@ -1,6 +1,6 @@
 body {
     background-color: black !important;
-    
+    font-family: 'Permanent Marker' !important;
 }
 button, #add-gif {
     background-color: aqua;
@@ -19,8 +19,10 @@ button, #add-gif {
 }
 h1 {
     text-align: center;
-    border-bottom: solid;
+    border-bottom: violet solid;
     color: rgb(49, 158, 177) !important;
+    padding-bottom: 10px;
+
 }
 .gifs {
     margin: auto;
@@ -33,3 +35,28 @@ label {
 .game {
     margin: 5px;
 }
+#gif-form {
+    margin: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+
+}
+#add-gif{
+    margin: 5px;
+    padding-right: 10px;
+
+}
+button:hover {
+    background-color: indigo;
+    color: darksalmon;
+}
+#add-gif:hover {
+    background-color: indigo;
+    color: darksalmon;
+}
+input {
+    width: 300px;
+}
+/* .row2 {
+    text-align: right;
+} */
