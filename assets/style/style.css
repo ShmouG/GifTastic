@@ -30,3 +30,6 @@ h1 {
 label {
     color: rgb(126, 58, 175);
 }
+.game {
+    margin: 5px;
+}
