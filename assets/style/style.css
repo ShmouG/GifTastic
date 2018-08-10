@@ -1,3 +1,7 @@
+body {
+    background-color: black !important;
+    
+}
 button, #add-gif {
     background-color: aqua;
     border-radius: 4px !important;
@@ -16,9 +20,13 @@ button, #add-gif {
 h1 {
     text-align: center;
     border-bottom: solid;
+    color: rgb(49, 158, 177) !important;
 }
 .gifs {
-    margin: 0% auto;
+    margin: auto;
     padding: 1px;
-    border: 0ch;
+    color: lightcoral;
+}
+label {
+    color: rgb(126, 58, 175);
 }

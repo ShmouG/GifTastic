@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(()=> {
     var games = ["Destiny", "GTA", "Monster Hunter", "Over Watch"]
 
     function makeButtons(){
@@ -14,7 +14,7 @@ for (var i = 0; i < games.length; i++){
     $('#buttons-view').append(a); // append the button to buttonsView div
     }
 }
-    $("#add-gif").on("click", function(){
+    $("#add-gif").on("click", ()=>{
 
         // grabs the user show input
         var game = $("#gif-input").val().trim();
