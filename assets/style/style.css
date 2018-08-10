@@ -1,0 +1,24 @@
+button, #add-gif {
+    background-color: aqua;
+    border-radius: 4px !important;
+    margin: auto;
+    padding: 10px;
+}
+#buttons-view {
+    margin: auto;
+    padding-bottom: 20px;
+    align-content: center !important;
+}
+.row {
+    margin: 0% auto !important;
+
+}
+h1 {
+    text-align: center;
+    border-bottom: solid;
+}
+.gifs {
+    margin: 0% auto;
+    padding: 1px;
+    border: 0ch;
+}

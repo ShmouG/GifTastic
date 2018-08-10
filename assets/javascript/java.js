@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var games = ["Destiny", "GTA", "Monster Hunter"]
+    var games = ["Destiny", "GTA", "Monster Hunter", "Over Watch"]
 
     function makeButtons(){
 // deletes the shows prior to adding new shows so there are no repeat buttons
